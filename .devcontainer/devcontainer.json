@@ -4,5 +4,12 @@
 	"name": "Rust",
   "dockerComposeFile": ["docker-compose.yml"],
   "service": "rust_devcontainer",
-  "workspaceFolder": "/workspace"
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "zsh"
+      }
+    }
+  }
 }
